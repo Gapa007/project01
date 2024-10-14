@@ -48,6 +48,7 @@ passwd = input("password: ")
 
 if user not in user_with_passwd or user_with_passwd[user] != passwd:
     print("unregistered user, terminating the program..")
+    exit()
 else:
     print(f"""
 ----------------------------------------
