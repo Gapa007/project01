@@ -106,7 +106,7 @@ for word in words:
 sorted_by_length = sorted(length_occurrences.items())
 
 for length, occurrences in sorted_by_length:
-    print(f"{length:<2} | {'*' * occurrences:<12} | {occurrences}")
+    print(f"{length:<3} | {'*' * occurrences:<17} | {occurrences:<2}")
 
 print("----------------------------------------")
 
